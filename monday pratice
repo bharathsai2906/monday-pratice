@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="background-color:rgb(255, 0, 0);">rgb(255, 0,0 )</h1>
+<h1 style="background-color:rgb(0, 0, 255);">rgb(0, 0, 255)</h1>
+<h1 style="background-color:rgb(60, 179, 113);">rgb(60, 179, 113)</h1>
+<h1 style="background-color:rgb(238, 130, 238);">rgb(238, 130, 238)</h1>
+<h1 style="background-color:rgb(255, 165, 0);">rgb(255, 165, 0)</h1>
+<h1 style="background-color:rgb(106, 90, 205);">rgb(106, 90, 205)</h1>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<p><a href="#C15">Jump to Chapter 15</a></p>
+<p><a href="#C22">Jump to Chapter 22</a></p>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 4</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 10</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains something</p>
+
+<h2 id="C15">Chapter 15</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains something</p>
+
+<h2 id="C22">Chapter 22</h2>
+<p>This chapter explains something</p>
+
+<h2>Chapter 23</h2>
+<p>This chapter explains something</p>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<h2>The picture Element</h2>
+
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg" style="width:auto;">
+</picture>
+
+<p>Resize the browser to see different versions of the picture loading at different viewport sizes.
+The browser looks for the first source element where the media query matches the user's current viewport width,
+and fetches the image specified in the srcset attribute.</p>
+
+<p>The img element is required as the last child tag of the picture declaration block.
+The img element is used to provide backward compatibility for browsers that do not support the picture element, or if none of the source tags matched.
+</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Iframes</h2>
+<p>You can also use the CSS height and width properties to specify the size of the iframe:</p>
+
+<iframe src="demo_iframe.htm" style="height:200px;width:300px" title="Iframe Example"></iframe>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+</iframe>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:2px solid brown;
+}
+</style>
+<body>
+
+<h2>A basic HTML table</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Company</th>
+    <th>Contact</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>atcs</td>
+    <td>sai</td>
+    <td>india</td>
+  </tr>
+  <tr>
+    <td>hshsnjsa</td>
+    <td>sakhkAHHSA</td>
+    <td>USA</td>
+  </tr>
+</table>
+
+<p>To understand the example better, we have added borders to the table.</p>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The form target attribute</h2>
+
+<p>When submitting this form, the result will be opened in a new browser tab:</p>
+
+<form action="/action_page.php" target="_blank">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="bharath"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="sai"><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The form novalidate attribute</h1>
+
+<p>The novalidate attribute indicates that the form input is not to be validated on submit:</p>
+
+<form action="/action_page.php" novalidate>
+  <label for="email">Enter your email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <input type="submit">
+</form>
+
+</body>
+</html>
